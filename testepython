@@ -1,8 +1,13 @@
-a_number = 102
+a_number = 33
 if a_number % 2 == 0 :
     print("{} is even".format(a_number))
+else :
+    print("{} is odd".format(a_number))
 if a_number % 3 == 0 :
     print("{} is also divisible by 3".format(a_number))
+else :
+    print("{} is not divisible by 3".format(a_number))
+
 if a_number % 5 == 0 :
     print("{} is also divisible by 5".format(a_number))
 else :
